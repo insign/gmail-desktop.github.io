@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Gmail Desktop
 
 You can use the [editor on GitHub](https://github.com/insign/gmail-desktop.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
