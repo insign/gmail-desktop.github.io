@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Gmail Desktop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Gmail Desktop</h1>
+						<p>free,
+							<a href="//github.com/insign/gmail-desktop" target="_blank">open</a>, cross-platform, offline, multilingual & themeable</p>
+						<nav>
+							<ul>
+								<li><a href="#" class="icon fa-linux" title="Download for Linux"><span class="label">Download for Linux</span></a></li>
+								<li><a href="#" class="icon fa-apple" title="Download for OSX"><span class="label">Download for OSX</span></a></li>
+								<li><a href="#" class="icon fa-windows" title="Download for Windows"><span class="label">Download for Windows</span></a></li>
+								<br>
+								<li><a href="//github.com/insign/gmail-desktop" class="icon fa-github" title="Contribute on Github"><span class="label">Contribute on Github</span></a></li>
+								<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=PKCKD2WLHV9YJ&lc=US&item_name=Gmail%20Desktop&item_number=gmail%2ddesktop&no_note=0&cn=Any%20message%20to%20the%20developer%3f&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted" target="_blank" class="icon fa-medkit" title="Donate to us"><span class="label">Donate to us</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Gmail is a trademark of Google Inc. We don't have any partnership with Google.</span>
+					</footer>
+
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
